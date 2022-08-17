@@ -1,0 +1,57 @@
+.default__profile {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 50vw;
+    .cover__photo{
+        width: 100%;
+        height: 6rem;
+        background-color: #0177b7;
+    }
+    .profile__photo{
+        margin-left: 0.8rem;
+        width: 5rem;
+        height: 5rem;
+        margin-top: -2rem;
+    }
+    .sub__information{
+        display: flex;
+        
+        .mid__dot{
+            margin-top: -0.2rem;
+        }
+        .contact__info{
+            color: #0177b7 ;
+            font-weight: 1000;
+        }
+    }
+    .connection{
+        color: #0177b7;
+        font-weight: 1000;
+        margin-top: 1rem;
+    }
+    p{
+        font-size: 0.85rem;    
+    }
+    button{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 20px;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-weight: 600;
+    }
+    .buttons{
+        .add__exp__btn{
+            background-color: #0177b7;
+            color: white;
+            border: #0177b7 solid 2px;
+        }
+        .add__edu__btn{
+            background-color: white;
+            color: #0177b7;
+            border: #0177b7 solid 2px;
+        }
+    }
+}
